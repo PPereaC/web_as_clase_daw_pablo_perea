@@ -1,0 +1,40 @@
+*{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.card-news-container .card-category-container a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #434343;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-news-container .card-image-container{
+    margin-bottom: 15px;
+}
+
+.card-news-container .card-image-container div{
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-news-container .card-text-container a{
+    transition: color .2s ease-in;
+    text-decoration: none;
+    color: #151515;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.card-news-container .card-text-container a:hover{
+    color : #f9a300;
+}
+
+.card-news-container .card-footer-container span{
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
