@@ -8,6 +8,12 @@
     padding-right: 15px;
 }
 
+.card-news-container{
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
 .card-news-container .card-category-container a{
     font-size: 13px;
     line-height: 15px;
@@ -21,9 +27,36 @@
 }
 
 .card-news-container .card-image-container div{
-    height: 140px;
+    /*height: 140px;*/
+    aspect-ratio: 16 / 9;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.card-news-container .card-image-container div .play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    transition: background .2s ease-in;
+}
+
+.card-news-container .card-image-container div .play-button:hover{
+    background-color: #333;
+}
+
+.card-news-container .card-image-container div .play-button i{
+    color: white;
+    font-size: 75px;
+    margin: auto auto auto 15px;
+    line-height: 50px;
 }
 
 .card-news-container .card-text-container a{
@@ -43,10 +76,16 @@
     color: #666;
     font-size: 12px;
     line-height: 18px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #e8e8e8;
 }
 
 
-
+.card-news-container .card-footer-container i{
+    color: #666;
+    font-size: 12px;
+}
 
 
 .opinion-container{
