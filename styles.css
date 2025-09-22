@@ -2,16 +2,24 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+
+.m-996{
+    max-width: 996px;
+}
+
 header{
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
-
 nav{
     height: 64px;
     background-color: #e41b1b;
+}
+
+nav .navbar-brand{
+    margin: 0 !important;
 }
 
 nav .navbar-brand svg{
@@ -24,12 +32,41 @@ nav .navbar-brand svg{
     font-size: 17px;
     color: white;
     font-weight: 500;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 #navbarNav li{
     margin-right: 1.5rem;
+}
+
+.right-menu a:hover, #navbarNav a:hover{
+    color: white;
+}
+
+.right-menu a{
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    padding: 0 !important;
+}
+
+.right-menu .navbar-nav{
+    margin-left: auto;
+}
+
+.right-menu  li{
+    margin-left: 1rem;
+    border-right: 1px solid white;
+    padding-right:1rem;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.right-menu li i{
+    font-size: 20px;
 }
 
 .container{
