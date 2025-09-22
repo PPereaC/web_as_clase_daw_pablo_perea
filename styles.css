@@ -2,6 +2,36 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+nav{
+    height: 64px;
+    background-color: #e41b1b;
+}
+
+nav .navbar-brand svg{
+    height: 26px;
+    width: 50px;
+    fill: white;
+}
+
+#navbarNav a{
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#navbarNav li{
+    margin-right: 1.5rem;
+}
+
 .container{
     max-width: 996px !important;
     padding-left: 15px;
