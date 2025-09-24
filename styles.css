@@ -139,6 +139,31 @@ nav .navbar-brand svg{
     line-height: 50px;
 }
 
+.play-button2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 60px;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    transition: background .2s ease-in; 
+}
+
+.play-button2:hover{
+    background-color: #333;
+}
+
+.play-button2 i{
+    color: white;
+    font-size: 35px;
+    margin: auto auto auto 15px;
+    line-height: 20px;
+}
+
 .card-news-container .card-text-container a{
     transition: color .2s ease-in;
     text-decoration: none;
@@ -239,3 +264,192 @@ nav .navbar-brand svg{
     width: 100%;
     display: block;
 }
+
+/* Columna de la derecha */
+
+.rc-title {
+    font-family: sourcesans,ss-ro,ss-sf,ss-se,ss-li,sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.video-of-day-title {
+    text-decoration: none;
+    color: #e41b1b;
+    font-weight: bold;
+}
+
+.video-of-day-container {
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Estilos para las noticias laterales */
+.side-news-container {
+    margin-top: 20px;
+}
+
+.side-news-container .card-image-container div {
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+}
+
+.side-news-container .card-category-container {
+    margin: 5px 0;
+}
+
+.side-news-container .card-category-container a {
+    color: #666;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.side-news-container .card-text-container a {
+    color: #151515;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.side-news-container .card-text-container a:hover {
+    color: #f9a300;
+}
+
+.news-author {
+    color: #666;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.news-author .comments-count {
+    color: #666;
+}
+
+/* Estilos para el elemento de opinión */
+.opinion-element {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.opinion-element-header {
+    flex: 1;
+}
+
+.opinion-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    font-style: italic;
+}
+
+.opinion-title2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    font-style: normal;
+}
+
+.opinion-author {
+    margin-top: 5px;
+}
+
+.author-prefix {
+    font-size: 12px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.author-name {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.comments-count {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    color: #666;
+    font-size: 14px;
+}
+
+.author-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.author-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para las últimas noticias */
+.latest-news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.latest-news-container {
+    padding: 5px 0;
+}
+
+.latest-news-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.latest-news-time {
+    color: #e41b1b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.latest-news-event {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest-news-title {
+    margin-top: 3px;
+}
+
+.latest-news-title a {
+    color: #151515;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+    transition: color .2s ease-in;
+    font-weight: bold;
+}
+
+.latest-news-title a:hover {
+    color: #f9a300;
+}
+
+
+
